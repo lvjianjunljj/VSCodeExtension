@@ -27,6 +27,26 @@
         "command": "vscodeextension.sayHello",
         "when": "editorTextFocus"
       }
+    ],
+    "languages": [
+      {
+        "id": "view",
+        "aliases": [
+          "view",
+          "view"
+        ],
+        "extensions": [
+          ".view"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "view",
+        "scopeName": "source.view",
+        "path": "./syntaxes/view.tmLanguage.json"
+      }
     ]
   },
   "scripts": {
